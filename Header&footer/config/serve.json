@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://7tmw2s.sharepoint.com/sites/MPRFSALESSYSTEM/SitePages/EventPlanHome.aspx",
+      "customActions": {
+        "000bce60-3668-4254-ae4c-9310bb4d1e3f": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "homepage": {
+      "pageUrl": "https://7tmw2s.sharepoint.com/sites/MPRFSALESSYSTEM/SitePages/EventPlanHome.aspx",
+      "customActions": {
+        "000bce60-3668-4254-ae4c-9310bb4d1e3f": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}
